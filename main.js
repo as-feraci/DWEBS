@@ -8,12 +8,12 @@ const messageComponents = {
         'unleash', 'utilize',' visualize', 'whiteboard'
     ],
     adjs: [
-        'B2B', 'B2C', 'back-end', 'best-of-breed', 'bleeding-edge', 'bricks-and-clicks', 'clicks-and-mortar','collaborative', compelling, cross-platform, cross-media, customized,
-        'cutting-edge', 'distributed', 'dot-com', 'dynamic', 'e-business', 'efficient', 'end-to-end', 'nterprise', 'extensible', frictionless, front-end,
-        'global', 'granular', 'holistic', 'impactful', 'innovative', 'integrated', 'interactive', 'intuitive', 'killer', 'leading-edge', magnetic,
-        'mission-critical', 'next-generation', 'one-to-one', 'open-source', 'out-of-the-box', 'plug-and-play', 'proactive', real-time, revolutionary, rich, robust, scalable,
-        'seamless', 'sex', 'sticky', 'strategic', 'synergistic', 'transparent', 'urn-key', 'ubiquitous',' user-centric', 'value-added', vertical,
-        'viral', 'virtual', 'visionar', 'web-enabled', 'wireless', 'world-class' 
+        'B2B', 'B2C', 'back-end', 'best-of-breed', 'bleeding-edge', 'bricks-and-clicks', 'clicks-and-mortar','collaborative', 'compelling', 'cross-platform', 
+        'cross-media', 'customized', 'cutting-edge', 'distributed', 'dot-com', 'dynamic', 'e-business', 'efficient', 'end-to-end', 'nterprise', 'extensible', 
+        'frictionless', 'front-end', 'global', 'granular', 'holistic', 'impactful', 'innovative', 'integrated', 'interactive', 'intuitive', 'killer', 
+        'leading-edge', 'magnetic', 'mission-critical', 'next-generation', 'one-to-one', 'open-source', 'out-of-the-box', 'plug-and-play', 'proactive', 
+        'real-time', 'revolutionary', 'rich', 'robust', 'scalable', 'seamless', 'sex', 'sticky', 'strategic', 'synergistic', 'transparent', 'urn-key', 
+        'ubiquitous',' user-centric', 'value-added', 'vertical', 'viral', 'virtual', 'visionar', 'web-enabled', 'wireless', 'world-class' 
     ],
     nouns: [
         'action-items', 'applications', 'architectures', 'bandwidth', 'channels', 'communities', 'content', 'convergence', 
