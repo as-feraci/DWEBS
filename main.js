@@ -23,3 +23,19 @@ const messageComponents = {
     'schemas', 'solutions', 'supply-chains', 'ystems', 'technologies', 'users', 'vortals', 'web services'
 ]
 }
+
+let selectedWords = []
+const makeBs = () => {
+    // use a loop to iterate through the object with a switch case that can select and format each of the different message components.
+    for (let componenet in messageComponents) {
+        let randNum = Math.floor(Math.random() * 45)
+        selectedWords.push(messageComponents[componenet][randNum]);
+      }
+}
+
+
+makeBs();
+let verb = selectedWords[0]
+let adj = selectedWords[1]
+let noun = selectedWords[2]
+console.log(`${verb} ${adj} ${noun}`)
