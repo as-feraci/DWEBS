@@ -24,12 +24,40 @@ const messageComponents = {
 ]
 }
 
+const dwebsComponents = {
+    verbs: [
+        'Dox', 'Encryption', 'Pen test', 'Phish', 'attack', 'penetrate', 'crack',
+       'Enumerate', 'document', 'scan', 'collect', 'breach', 'activate', 'brute force', 
+       'response', 'control', 'analyze', 'decrypt', 'defend', 'disrupt', 'nmap',
+       'flooding', 'hijack', 'footprint', 'authenticate', 'sniff', 'patch', 'ping',
+       'share', 'injection'
+       ],
+       
+       adjs: [
+        'Blackhat', 'vulnerable', 'weak', 'strong', 'secure', 'stable',
+       'active', 'cloud', 'virtual', 'remote', 'digital', 'external', 'file', 'hash',
+       'high', 'host', 'hybrid', 'hyper', 'logic', 'loop', 'public', 'private',
+       'reverse', 'data', 
+       ],
+       
+       nouns: [
+       'Alias', 'Backdoor', 'Bitcoin', 'Botnet', 'Cipher',  'Malware', 'asset',
+       'target', 'Ransomware', 'RATs', 'Shell', 'Spyware', 'Vulnerability', 'Worm', 'Zero day', 
+       'banner', 'node', 'machine', 'AI', 'algorithm', 
+       'forensics','asset', 'ports', 'payload', 'threat', 'device', 'proxy', 'function',
+       'parameter', 'method', 'password', 'impact', 'honeypot', 'script', 'bash',
+       'terminal', 'command', 'incident', 'protocol', 'state', 'network', 'packet',
+       'server', 'engineering', 'risk', 'assessment', 'root', 'key', 'exploit'
+       ]
+       
+}
+
 let selectedWords = []
 const makeBs = () => {
     // use a loop to iterate through the object with a switch case that can select and format each of the different message components.
-    for (let componenet in messageComponents) {
-        let randNum = Math.floor(Math.random() * 45)
-        selectedWords.push(messageComponents[componenet][randNum]);
+    for (let componenet in dwebsComponents) {
+        let randNum = Math.floor(Math.random() * 25)
+        selectedWords.push(dwebsComponents[componenet][randNum]);
       }
 }
 
@@ -39,3 +67,5 @@ let verb = selectedWords[0]
 let adj = selectedWords[1]
 let noun = selectedWords[2]
 console.log(`${verb} ${adj} ${noun}`)
+
+// add in new words, create html page, set up css page to style, set up html page, create button for function
