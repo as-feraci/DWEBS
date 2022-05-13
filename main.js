@@ -30,14 +30,14 @@ const dwebsComponents = {
        'Enumerate', 'document', 'scan', 'collect', 'breach', 'activate', 'brute force', 
        'response', 'control', 'analyze', 'decrypt', 'defend', 'disrupt', 'nmap',
        'flooding', 'hijack', 'footprint', 'authenticate', 'sniff', 'patch', 'ping',
-       'share', 'injection'
+       'share', 'injection', 'spoof'
        ],
        
        adjs: [
         'Blackhat', 'vulnerable', 'weak', 'strong', 'secure', 'stable',
        'active', 'cloud', 'virtual', 'remote', 'digital', 'external', 'file', 'hash',
        'high', 'host', 'hybrid', 'hyper', 'logic', 'loop', 'public', 'private',
-       'reverse', 'data', 
+       'reverse', 'data', 'trojan', 'wireless'
        ],
        
        nouns: [
@@ -47,7 +47,8 @@ const dwebsComponents = {
        'forensics','asset', 'ports', 'payload', 'threat', 'device', 'proxy', 'function',
        'parameter', 'method', 'password', 'impact', 'honeypot', 'script', 'bash',
        'terminal', 'command', 'incident', 'protocol', 'state', 'network', 'packet',
-       'server', 'engineering', 'risk', 'assessment', 'root', 'key', 'exploit'
+       'server', 'engineering', 'risk', 'assessment', 'root', 'key', 'exploit', 'virus',
+       'bug'
        ]
        
 }
